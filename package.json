@@ -1,0 +1,16 @@
+{
+  "name": "11-menu",
+  "version": "1.0.0",
+  "description": "![HTML](https://img.shields.io/badge/code-HTML-brightgreen)\r ![CSS](https://img.shields.io/badge/code-CSS-green)\r ![JS](https://img.shields.io/badge/code-JS-orange)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["Mobile", "menu", "hambuger"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
