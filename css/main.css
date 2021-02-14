@@ -24,11 +24,12 @@ body {
     background-color: #000;
     margin: 5px 0;
     cursor: pointer;
+    transition: .4s;
  
   }
   
   .change .bar1 {
-    transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-40deg) translate(-7px, 5px) ;
   }
   
   .change .bar2 {
@@ -36,7 +37,7 @@ body {
   }
   
   .change .bar3 {
-    transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(40deg) translate(-8px, -8px) ;
   }
 
 
@@ -44,13 +45,25 @@ body {
     padding: 20px;
 }
 
-.navigation > ul {
+.menu > ul {
     list-style: none;
     background-color: #858585;
-    width: 50%;
     padding: 10px;
     border-radius: 10px;
     margin-top: 15px;
+    transition: .5s;
+}
+
+.menu {
+    opacity: 0;
+    width: 0px;
+    transition: .5s;
+}
+
+.menu.visible{
+  opacity: 1;  
+  width: 200px;
+  
 }
 
 .link {
